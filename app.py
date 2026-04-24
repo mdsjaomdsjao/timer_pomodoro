@@ -118,15 +118,10 @@ st.markdown(
         box-shadow: 0 0 5px #00FF00 !important;
     }
 
-    /* cor da barra de progresso */
-    /* O nth-child(1) garante que estamos pegando apenas o lado esquerdo (preenchido) da barra */
-    div[data-baseweb="slider"] > div > div:nth-child(1) {
-        background: linear-gradient(to right, #31a890 0%, #00FF00 100%) !important;
-    }
     
     /* tamanho do número (valor) que aparece quando arrasta a bolinha */
     div[data-baseweb="slider"] div {
-        font-size: 16px !important; 
+        font-size: 14px !important; 
     }
 </style>
     """,
